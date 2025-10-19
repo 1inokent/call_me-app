@@ -12,16 +12,16 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-  "*.{ts,tsx,js,jsx}": [
-    "eslint --fix",
-    "prettier --write",
-    "git add"
-  ],
-  "*.{scss,css}": [
-    "prettier --write",
-    "git add"
-  ]
-},
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{scss,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "dependencies": {
     "react": "19.1.1",
     "react-dom": "19.1.1",
