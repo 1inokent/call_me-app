@@ -12,7 +12,7 @@ export default tseslint.configs(
   ...tseslint.configs.recommended,
   prettierConfig,
   {
-    files: ["**/*.{ts,tsx}"],
+    files: ["**/*.{ts,tsx, jsx, js}"],
     languageOptions: {
       parserOptions: {
         ecmaVersion: "latest",
